@@ -13,7 +13,7 @@ ul {
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--color-title);
 }
 .webstudio {
   font-family: "Raleway", sans-serif;
@@ -21,14 +21,13 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #212121;
+  letter-spacing: 0.03em;color: var(--color-title);
 }
 .web {
   color: var(--color-link);
 }
 .studio {
-  color: black;
+  color: var(--color-title);
 }
 .list-studio {
   font-size: 14px;
@@ -36,7 +35,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--color-title);
 }
 .list-studio:hover,
 :focus {
@@ -49,10 +48,9 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
 }
-.mail:hover {
-  color: #2196f3;
+.mail:hover {color: var(--color-link);
 }
 .tel {
   font-style: normal;
@@ -60,7 +58,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
 }
 .tel:hover {
   color: #2196f3;
@@ -76,11 +74,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 .button {
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -120,12 +116,19 @@ body {
 .team-card {
   background: white;
 }
+.team-names{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--color-title);
+}
 .team-discription {
   font-family: var(--font);
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey);
 }
 .footer {
   background-color: #2f303a;
@@ -165,5 +168,5 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey);
 }
