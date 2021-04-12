@@ -48,7 +48,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--grey);
 }
 .mail:hover {color: var(--color-link);
 }
@@ -58,10 +58,17 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--grey);
 }
 .tel:hover {
   color: #2196f3;
+}
+.mail-footer, .tel-footer{
+  font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+font-style: normal;
 }
 .first-section {
   background: #2f303a;
